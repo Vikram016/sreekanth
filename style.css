@@ -1,0 +1,192 @@
+/*font section */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto|Roboto+Condensed:700|ZCOOL+XiaoWei');
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'ZCOOL XiaoWei', serif;
+font-family: 'Playfair Display', serif;
+*/
+
+/*.bg-view{
+    background-image: url('img/view-bg-1.jpg');
+    background-repeat: no-repeat;
+    height: auto;
+    width:auto;
+    background-position: center;
+}*/
+
+*{
+    margin:0;
+    padding:0;
+}   
+/*nav nav-pills*/
+.navbar .navbar-nav li a {
+    color:#fff !important;
+}
+
+.navbar-toggler{
+    background-color:#fff;
+    opacity: 0.5;
+}
+
+.brand_event{
+    background-image:url(img/home_bg.jpg);
+    background-position: center;
+    display: flex;
+    padding:1rem;
+}
+.main{
+position: relative;
+left:100%;
+top:15%;
+
+}
+
+
+
+.right_side{
+  
+  margin-left: 35%;
+   max-width: 50%;
+    height:50%;
+    margin-bottom:15%;
+    
+   }
+
+/*home_page_mobile_view */
+   @media only screen and (max-width: 450px) {
+   
+        .brand_event{
+            margin-top:2%;
+           
+            
+            
+        }
+         
+        .main{
+            position: relative;
+            left:1%;
+            top:10%;
+            
+        }
+
+        .right_side{
+  
+           position: absolute;
+           margin-left:12%;
+           padding:1%;
+           max-width: 50%;
+           height:50%;
+           margin-top:4%;
+           left:36%;
+             }
+
+            
+          
+                
+   }
+
+/*home page fonts*/
+
+.Hi-1{
+    font-family: 'Roboto', sans-serif;
+    color: #e74c3c;
+    font-size:1.5rem;
+    
+   
+   
+}
+
+.Hi-2{
+    font-family:  'ZCOOL XiaoWei', serif;
+    color: #f1c40f;
+    font-size: 2rem;
+}
+
+.Hi-3{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#192a56;
+    font-size: 1.5rem;
+}
+
+.Hi-4{
+    font-family:'Playfair Display', serif;
+    color:#fff;
+    font-size: 1rem;
+}
+
+/*brand-pro-section*/
+
+.brand-pro{
+    background-color: #fff;
+    margin-top:0%;
+    column-count:3;
+    column-gap:2em;
+    column-rule: 1px dotted #ccc;
+}
+
+.brand-pro p{
+    margin-top:0;
+    font-family: 'Times New Roman', Times, serif;
+    color:#3498db;
+    
+}
+
+.one{
+font-family: 'Roboto Condensed', sans-serif;  
+color:#2ecc71;
+
+}
+
+.fas{
+    padding:5px;
+    
+}
+
+/*.bg-view{
+    background-image: url('img/BG_back.jpg');
+    background-repeat: no-repeat;
+   
+    background-position:cover;
+}*/
+
+
+/*About us start */
+.as-1{
+    font-family:'Roboto', sans-serif;
+    color:#c0392b;
+}
+/*About us End */
+
+/*service us start */
+.as-2{
+    font-family:'Roboto', sans-serif;
+    color:#3498db;
+}
+
+.card-title{
+    font-family:'Roboto', sans-serif;
+    color:#c0392b;
+}
+
+/* contact us*/
+
+.cs-3{
+    font-family:'Roboto', sans-serif;
+    color:#f1c40f;
+}
+
+.bg_con{
+    background-image: url(img/contact_bg.jpg);
+    background-position: center;
+}
+
+.cs-main{
+    font-family:'Roboto', sans-serif;
+    color:#ecf0f1;
+}
+.cs_drop{
+    color:#2980b9;
+}
+
